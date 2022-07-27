@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Youness",
+    "classifications": [
+        "Classlib"
+    ],
+    "name": "Stride template windows runner",
+    "identity": "Stride.Templates.Windows",
+    "groupIdentity": "Stride.Templates",
+    "shortName": "sd3d-win",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "Stride.Templates",
+    "preferNameDirectory": true,
+    "symbols": {
+        "name": {
+            "type": "parameter",
+            "fileRename": "NewGame",
+            "defaultValue": "NewGame",
+            "replaces": "NewGame"
+        },
+        "game" : {
+            "type": "parameter",
+            "shortname": "g",
+            "defaultValue": "..\\NewGame\\NewGame.csproj",
+            "replaces": "..\\NewGame\\NewGame.csproj"
+        }
+    }
+}
