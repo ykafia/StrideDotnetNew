@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Youness",
+    "classifications": [
+        "Classlib"
+    ],
+    "name": "Stride template new game",
+    "identity": "Stride.Templates.Game",
+    "groupIdentity": "Stride.Templates",
+    "shortName": "sd3d-game",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "Stride.Templates.Game",
+    "preferNameDirectory": true,
+    "symbols": {
+        "name": {
+            "type": "parameter",
+            "fileRename": "NewGame",
+            "defaultValue": "NewGame",
+            "replaces": "NewGame"
+        },
+        "version" : {
+            "type": "parameter",
+            "shortname": "v",
+            "defaultValue": "4.1.0.1734",
+            "replaces": "4.1.0.1734"
+        }
+    }
+}
