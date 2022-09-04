@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Youness",
+    "classifications": [
+        "Classlib"
+    ],
+    "name": "Stride template new library",
+    "identity": "Stride.Templates.Library",
+    "groupIdentity": "Stride.Templates.Library",
+    "shortName": "sd3d-lib",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "Stride.Templates.library",
+    "preferNameDirectory": true,
+    "symbols": {
+        "name": {
+            "type": "parameter",
+            "fileRename": "NewLibrary",
+            "defaultValue": "NewLibrary",
+            "replaces": "NewLibrary"
+        },
+        "version" : {
+            "type": "parameter",
+            "shortname": "v",
+            "defaultValue": "4.1.0.1734",
+            "replaces": "4.1.0.1734"
+        }
+    }
+}
